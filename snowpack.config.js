@@ -1,10 +1,10 @@
 /** @type {import("snowpack").SnowpackUserConfig } */
 module.exports = {
   mount: {
-    public: "/",
-    src: "/_dist_",
+    public: '/',
+    src: '/_dist_',
   },
-  plugins: ["@snowpack/plugin-svelte", "@snowpack/plugin-dotenv"],
+  plugins: ['@snowpack/plugin-svelte', '@snowpack/plugin-dotenv'],
   install: [
     /* ... */
   ],
@@ -22,5 +22,12 @@ module.exports = {
   },
   alias: {
     /* ... */
+  },
+  experiments: {
+    optimize: {
+      bundle: true,
+      minify: true,
+      target: 'es2018',
+    },
   },
 };

@@ -1,7 +1,7 @@
 <script>
 	import TailwindStyles from './TailwindStyles.svelte';
 	
-	const message = 'Learn Svelte';
+	const message = 'Travel Search Engine';
 </script>
 
 <style>
@@ -25,7 +25,7 @@
 			Edit <code>src/App.svelte</code> and save to reload.
 		</p>
 		<a
-			class="text-orange-500"
+			class="text-orange-500 font-bold"
 			href="https://svelte.dev"
 			target="_blank"
 			rel="noopener noreferrer"
